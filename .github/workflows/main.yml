@@ -38,4 +38,4 @@ jobs:
       run: docker commit --change "ENV MODEL_NAME linear-model" serving_base pedgar2025/tensorflow-linear-model:${{ github.sha }}
   
     - name: Docker Push
-      run: docker push  pedgar2025/tensorflow-li:${{ github.sha }}
+      run: docker push  pedgar2025/tensorflow-linear-model:${{ github.sha }}
